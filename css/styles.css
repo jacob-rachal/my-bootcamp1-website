@@ -1,0 +1,366 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif; 
+    /* font applies to everything within the body*/
+    /*cursive*/
+}
+
+.nav-bar {
+    background-color: rgba(102, 153, 255, 0.5); /*or red*/
+    height: 70px;
+    position: fixed; /* BOOM */
+    width: 100%; /* 100% 1000px*/
+    top: 0px;
+     /* be 200px away from left boundary, can use percentagesa and top bottom*/
+}
+/*ul {*/
+/*    text-align: right;*/
+/*}*/
+.nav-items {
+  /*list-style-type: none;*/
+  /*display: inline-block;*/
+  float: right;
+  /*color: #fff;*/
+  /*margin-right: 15px;*/
+  /*text-decoration: none;*/
+  /**/
+  
+}
+#logo {
+    /*float: left;*/
+    height: 100%;
+    width: 100px;
+}
+
+.list-item {
+    /* rename nav-list?*/
+    /*margin: 2px 2px 5px 17px;*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    list-style-type: none; /*removes any dots or other styles before the list items.*/
+    display: inline-block;
+    margin-right: 15px;
+    color: blue; /*#111;*/
+    /*text-decoration: none;*/
+    /*margin-top:  10px;*/
+    /*margin-right: 15px;*/
+    
+    /*background-color: red;*/
+    /*height: 50px;*/
+    /*width: 70px;*/
+    /*border-radius: 10px;*/
+}
+.nav-items a {
+    color: green;
+    
+}
+
+.nav-items a:hover {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+/*Banner styles*/
+.banner {
+    /*border: 1px dashed blue;*/
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    /*to not hide the nav bar*/
+    background-image: url('../img/croppedbooks.jpg');
+}
+
+.banner-text {
+    background-color: red;
+    width: 400px;
+    height: 75px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 200px;
+    /*margin-right: 40%;*/
+    /*margin-bottom: 40%;*/
+    
+}
+
+.banner-text p {
+    /*apply the following styles to all p tags that are within the banner-text class.*/
+    color: #fff;
+    /*use this styling sparingly!*/
+    font-size: 32px;
+    font-family: cursive;
+    /*font-family: whatever new font you downloaded from google fonts;*/
+    /*margin: 0px;*/
+    margin: 7px 0px 0px 0px;
+}
+
+/* END banner styles*/
+
+/* ABOUT and CONTACT body styles*/
+.about-container {
+    width: 100%;
+    height: 500px;
+    /*overflow: auto;*/
+    /*adds a vertical scroll bar*/
+}
+.body-headline {
+    color: #78C9C5;  /*teal*/
+    background-color: #3c5798; /*sky blue*/
+    sidth: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.acolumn {
+    border: 2px solid yellow;
+    width: 30%;
+    display: inline-block;
+    height: 705px;
+    margin: 10px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    
+}
+.acolumn img{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.droids, .nike, .matthias{
+    width:200px;
+    height:200px;
+    margin-top: 15px;
+}
+
+.duo-column {
+    width: 100%;
+    clear: both;
+}
+
+.col {
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+}
+
+.one {
+    float: left;
+    text-align: center;
+}
+
+.one img{ /*This targets the img tag within the 'one' tag*/
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+.two {
+    float: right;
+    text-align: center;
+    height: auto;
+}
+.two p {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+/* ABOUT and CONTACT body END*/
+/* ABOUT styles page with Julie*/
+
+
+
+/*.body {*/
+/*    width: 100%;*/
+    /*border: 2px solid blue;*/
+/*}*/
+
+/*.body-text {*/
+/*    margin-top: 0px;*/
+    /*margin-left: 50px;*/
+/*    width: 47%;*/
+/*    height: 400px;*/
+/*    border: 2px solid blue;*/
+/*    float: left;*/
+/*}*/
+
+/*.body-pic {*/
+/*    width: 48%;*/
+/*    height: 400px;*/
+/*    float: right;*/
+    
+/*}*/
+
+/*p {*/
+/*    width: 600px;*/
+/*    height: 600px;*/
+/*    margin-left: 50px;*/
+/*}*/
+
+/* === CONTACT STYLES w/ JULIE ===*/
+
+.contact-form {
+    
+    /*margin-left: 10px;*/
+    border: 10px solid red;
+    width: 700px;
+    height: 800px;
+    background-color:  #3c5798;
+    margin: 0 auto;
+    /* ^ to center the form on the page*/
+    margin-top: 70px;
+    clear: both;
+}
+
+.c-map {
+    margin: 0 auto;
+    width: 601px;
+    
+    margin-top: 25px;
+    /*display: inline-block;*/
+    border: 7px dotted yellow;
+    clear: both;
+}
+
+/* === END CONTACT STYLES === */
+
+
+h1 {
+    margin-top: 75px;
+    /*background-color: red;*/
+}
+
+.light {
+    font-weight: 300;
+}
+
+.reg {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+    
+}
+/*end of main section styles*/
+
+/* Footer Styles*/
+.footer {
+    border: 1px dashed blue;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(102, 153, 255, 0.5);
+    clear: both;
+}
+
+.footer-col {
+    /*border: 1px dashed red;*/
+    /*width: 32.5%;*/
+    width: 32.9%;
+    height: 60px;
+    border: 1px dashed black;
+    /*height: 10px; */
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    vertical-align: top;
+    /*vertical align sets the baseline to the fery top of the footer.*/
+}
+/*.cpyrgt {*/
+/*    display: inline-block;*/
+/*    margin-left: 10%;*/
+/*}*/
+#copyright {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.sneaky {
+    /*float: right;*/
+    color: rgba(10, 10, 10, 0.0);
+}
+
+/*.footer-btn {*/
+/*    background-color: salmon;*/
+/*    color: #fff;*/
+/*    width: 120px;*/
+/*    height: 50px;*/
+/*    font-size: 25px;*/
+/*    border-radius: 50px;*/
+/*    margin-left: 35%;*/
+/*    margin-top: 75px;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*font-size: 20px;*/
+    /*border-radius: 50%;*/
+    
+/*}*/
+
+.footer-btn {
+    height: 25px;
+    width: 100px;
+    background-color: rgba(255, 51, 51, 1.0);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px #3c5798;
+    /*top-right bottom-left*/
+    margin-top: 15px;
+}
+
+
+.footer-btn:hover{
+    background-color: #a6a6a6;
+    cursor: pointer;
+}
+
+.icon {
+    /*color: salmon;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.face {
+    margin-left: 0%;
+    color: rgba(250, 100, 0, 1.0);
+}
+
+.twi {
+    color: rgba(20, 120, 300, 1.0);
+    /*to have hidden icons (like certain emojis), crank the alpha to zero.*/
+}
+
+.git {
+    color: rgba(100, 0, 100, 1.0);
+}
+
+.footer-col a:hover {
+    /*color: red;*/
+    font-size: 20px;
+    cursor: pointer;
+    /*Hmn. Ok, since the icons have their own color classes, 
+    the colors defined here are overwritten. */
+}
+
+/*.footer-col p {*/
+/*    margin-left: 10%;*/
+/*}*/
+
+.right-third-ft {
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.spinner:hover {
+    color: white;
+}
+/* End of footer styles*/

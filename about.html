@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta lang="en-US">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="author" content="Jacob Rachal">
+      <meta name="description" content="This is Jacob Rachal's first website created using the Cloud 9 IDE">
+      <meta name="keywords" content="keywords,here">
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"> <!-- linking the poppins font from google fonts -->
+       <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">-->
+      <title>Jacob's first Cloud9 Website - Bootcamp One</title>
+  </head>
+  <body>
+       <!--  ================== NAVIGATION ============== -->
+    
+      <nav class="nav-bar">
+          <!-- <img src="img/freelogotrialrun.png" /> -->
+          <a href="https://www.google.com/"><img src="img/single-pizza-logo.png" alt="Pizza pie" id="logo"/></a>
+          <!-- or have logo go back to home -->
+          <ul class="nav-items">
+              <li class="list-item home"><a href="index.html" target="_blank">Home</a></li>
+              <!-- href "index.html" or https://www.google.com/ -->
+              <li class="list-item about"><a href="about.html" target="_blank">About</a></li>
+              <li class="list-item contact"><a href="contact.html" target="_blank">Contact</a></li>
+          </ul>
+      </nav>
+      <!-- END OF NAV BAR-->
+      <!-- =============== Main Section aka Banner ======== -->
+      <div class="banner">
+        <div class="banner-text">
+          <p>Welcome to the About Page</p>
+          <!--<p>Pizza is awesome</p>-->
+        </div>
+      </div>
+      <!--END BANNER-->
+      <!-- ======== BODY SECTION========-->
+      <section class="about-container">
+        <h2 class="body-headline"> My favorite Star Wars Characters</h2>
+        <div>
+          <div class="acolumn">
+            <!-- this will be a normal picture image -->
+            <img class="nike" src="https://vignette.wikia.nocookie.net/keithlaumer/images/a/ad/Boloscn3.jpg/revision/latest/scale-to-width-down/480?cb=20130511144308" alt="BOLO Mark 22"/>
+            <!--yoda, nike-->
+            <p>Here they come! 
+                They're coming in too fast! 
+                Oooh! We've lost lateral controls. 
+                Don't worry, she'll hold together. You hear me, baby? Hold together! Got him! I got him! 
+                Great kid! Don't get cocky. 
+                There are still two more of them out there! 
+                That's it! We did it! We did it! 
+                Help! I think I'm melting! This is all your fault.</p>
+          </div>
+          <div class="acolumn">
+            <!-- this will have a video -->
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/3ME5jhsgmB4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p>Rendezvous at mark six point one. This is Red Two. Flying toward you. 
+                Red Three, standing by. Red Leader, this is Base One. Keep half your group out of range for the next run. Copy, Base One. Luke, take Red Two and Three. Hold up here and wait for my signal...to start your run. 
+                This is it! We should be able to see it by now. 
+                Keep your eyes open for those fighters! There's too much interference! Red Five, can you see them from where you are? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.</p>
+          </div>
+          <div class="acolumn">
+            <!-- and this will have an audio clip -->
+            <img class="matthias" src="/img/wt9na11w.bmp" alt="Redwall hero mouse"/>
+            <!--matthias -> vader-->
+            <audio controls src="audio/Lightsaber.wav"></audio>
+            
+            <p>
+              Leave that to me! 
+              Damn fool. I knew that you were going to say that! 
+              Who's the more foolish...the fool or the fool who follows him?
+            </p>
+            
+          </div>
+        </div>
+      </section>
+      
+      <section class="duo-column">
+        <div class="body col one">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/519HF-FgQ7L.jpg" alt="BOLO tank"/>
+          
+        </div>
+        
+        <div class="body col two">
+          <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus cumque officiis, maxime autem voluptatum laudantium velit quos obcaecati aliquam esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ex porro quisquam hic cupiditate debitis laborum ducimus repellat sequi odio minus, officiis consectetur maxime a!</p>
+          <p class="reg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aliquid similique et asperiores, quisquam perferendis distinctio voluptas nisi, esse sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ex pariatur suscipit veniam, dolorem similique cupiditate tempore totam, corrupti, nesciunt in et harum dolorum qui.</p>
+          <p class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta perferendis quas quam odio quod, doloremque natus dolor expedita maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eius commodi sequi veniam blanditiis error nihil sed quisquam iste, at rerum reiciendis voluptates eum, pariatur!</p>
+          
+        </div>
+        
+      </section>
+      
+      
+      <!-- Start of footer section-->
+      <footer class="footer">
+        <div class="footer-col">
+          <a href="contact.html" target="_blank"><button class="footer-btn">Contact me!</button></a>
+          <!-- ^^ the un useable button-->
+          
+        </div>
+        <div class="footer-col">
+          <a href="https://www.facebook.com/" target="_blank"><i class="icon face fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"><i class="icon twi fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="icon git fab fa-github-square fa-2x"></i></a> <!-- Maybe have this icon link to my github page?-->
+        </div>
+        <div class="footer-col">
+          <div id="copyright">
+            <p>&copy; All rights reserved. 2018 <i>Jacob Rachal.</i></p>
+            <!--<p>&copy; All rights reserved. <i>Jacob Rachal.</i></p>-->
+          </div>
+          <a href="http://www.theworldsworstwebsiteever.com"><i class="sneaky fas fa-poo"></i></a>
+          
+          <!--<div class="right-third-ft">-->
+          <!--  <i class="spinner fas fa-cog fa-spin fa-3x"></i>-->
+          <!--</div>-->
+          
+          <!-- spinning cog -->
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum vel vitae eum assumenda repellat possimus praesentium asperiores rem tenetur mollitia.</p>-->
+        </div>
+      </footer>  
+      <!--end of footer section, copy over to other 2 pages when finnished-->
+      
+      
+      
+  </body>
+</html>
+  
